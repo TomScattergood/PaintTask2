@@ -8,18 +8,18 @@ public class Main
     public static void main(String[] args)
     {
         //Declaring variables
-        Double width;
-        Double height;
-        Double wallArea;
-        Double price;
-        Double cost;
-        Double quantity;
-        Double amount;
-        Double coverage;
-        Double widthWindow;
-        Double heightWindow;
-        Double windowArea;
-        Double coats;
+        double width;
+        double height;
+        double wallArea;
+        double price;
+        double cost;
+        double quantity;
+        double amount;
+        double coverage;
+        double widthWindow;
+        double heightWindow;
+        double windowArea;
+        double coats;
 
         // Input height of room
         Scanner wallHeight = new Scanner(System.in);
@@ -41,6 +41,7 @@ public class Main
                 System.out.println("Enter the Height of window in m");
                 heightWindow = windowHeight.nextDouble();
                 windowArea = heightWindow * widthWindow;
+                System.out.println("Area of window is " +windowArea + "m^2");
 
                 // Total area to be painted
                 wallArea = (width * height) - (widthWindow * heightWindow); //Area of room is calculated
@@ -65,6 +66,7 @@ public class Main
 
                 //Input how much a tin of paint costs
                 Scanner paintPrice = new Scanner(System.in);
+
         System.out.println("Enter the price per tin of paint");
         price = paintPrice.nextDouble();
 

@@ -41,6 +41,7 @@ public class Main
                 heightWindow = windowHeight.nextDouble();
                 windowArea = heightWindow * widthWindow;
 
+                // Total area to be painted 
                 wallArea = (width * height) - (widthWindow * heightWindow); //Area of room is calculated
                 System.out.println("Area of wall is: " + wallArea + "m^2");
 

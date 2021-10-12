@@ -41,7 +41,7 @@ public class Main
                 heightWindow = windowHeight.nextDouble();
                 windowArea = heightWindow * widthWindow;
 
-                // Total area to be painted 
+                // Total area to be painted
                 wallArea = (width * height) - (widthWindow * heightWindow); //Area of room is calculated
                 System.out.println("Area of wall is: " + wallArea + "m^2");
 
@@ -57,6 +57,7 @@ public class Main
                 System.out.println("Enter the coverage per tin in metres squared");
                 coverage = paintCoverage.nextDouble();
 
+                //input how much a tin of paint costs 
                 Scanner paintPrice = new Scanner(System.in);
         System.out.println("Enter the price per tin of paint");
         price = paintPrice.nextDouble();

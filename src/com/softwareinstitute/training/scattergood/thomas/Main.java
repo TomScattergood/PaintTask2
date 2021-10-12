@@ -52,6 +52,10 @@ public class Main
                 System.out.println("Enter the number of coats of paint");
                 coats = paintCoats.nextDouble();
 
+                // If you have another wall say yes
+                Scanner wallAmount = new Scanner(System.in);
+                System.out.println("Do you want to paint another wall? type y for yes or 'n' for no");
+                amount = wallAmount.nextDouble();
 
                 //Input amount of walls being painted
                 Scanner wallAmount = new Scanner(System.in);
